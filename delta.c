@@ -135,7 +135,7 @@ void readContent(char* filename){
     strcat(command, keyValue);
     strcat(command, ".txt");
 
-    /* Composing string to check file extistance */
+    /* Composing string to check if the hidden stream exists */
     strcat(hiddenfile, filename);
     strcat(hiddenfile, ":");
     strcat(hiddenfile, keyValue);
